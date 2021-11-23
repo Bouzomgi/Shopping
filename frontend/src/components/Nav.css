@@ -1,0 +1,42 @@
+nav {
+  min-height: 10vh;
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  color: rgb(73, 79, 82);
+  font-size: 1rem;
+  display: flex;
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+
+nav #shop-name {
+  margin-left: 40px;
+  font-size: 1.2rem;
+}
+
+nav .nav-element {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+nav .nav-element li {
+  padding: 0px 2.6vw;
+  list-style: none;
+}
+
+nav .nav-element li:not(:first-child) {
+  border-left: 1px solid #777;
+}
+
+nav .nav-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav .nav-link li:hover, nav .nav-link#shop-name:hover {
+  color: rgb(73, 179, 82);
+  cursor: pointer;
+}
